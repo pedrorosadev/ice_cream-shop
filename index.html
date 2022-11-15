@@ -1,69 +1,207 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Ice Cream Shop</title>
+  </head>
+  <body>
     <!--Cabeçalho da Página-->
     <header>
+      <section class="container section-header">
+        <!--
+            <nav>
+               
+                <img class="image-logo" src="assets\images\logo.png" alt="Logo-Sorveteria">
+                
+            </nav>
+            -->
         <nav>
-            <img width="1000" height="200"  src="assets\images\logo.png" alt="Logo-Sorveteria">
+          <ul class="list">
+            <a class="link" href="index.html">
+              <li class="nav-button">Home</li>
+            </a>
+            <a class="link" href="pages/about_us.html">
+              <li class="nav-button">Sobre Nós</li>
+            </a>
+            <a class="link" href="">
+              <li class="nav-button">Pesquisar</li>
+            </a>
+          </ul>
         </nav>
-        <nav>
-            <ul>
-                <a href="index.html">
-                    <li>Página Inicial</li>
-                </a>
-                <a href="about_us.html">
-                    <li>Sobre Nós</li>
-                </a>
-            </ul>
-        </nav>
+      </section>
     </header>
-    
-    <hr>
+
+    <hr />
     <!--Parte principal do site-->
     <main>
-        <h1>Produtos</h1>
+      <h1>Produtos</h1>
 
-        <img width="400" height="400" src="assets\images\waffle.jpg" alt="Sorvete Waffle">
-        <img width="400" height="400" src="assets\images\to-bake.jpg" alt="Sorvete Waffle no Copo">
-        <img width="400" height="400" src="assets\images\to-bake-.jpg" alt="Sorvete de Frutas">
+      <table class="table-main">
+        <tr>
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\waffle.jpg"
+              alt="Sorvete Waffle"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
 
-        <br>
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\to-bake.jpg"
+              alt="Sorvete Waffle no Copo"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
 
-        <img width="400" height="400" src="assets\images\to-bake_.jpg" alt="Bolo de Sorvete">
-        <img width="400" height="400" src="assets\images\strawberry-ice-cream.jpg" alt="Sorvete de Morango">
-        <img width="400" height="400" src="assets\images\ice-cream.jpg" alt="Sorvete de Bolas no Prato">
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\to-bake-.jpg"
+              alt="Sorvete de Frutas"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
+        </tr>
 
-        <br>
+        <tr>
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\to-bake_.jpg"
+              alt="Bolo de Sorvete"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
 
-        <img width="400" height="400" src="assets\images\ice-cream-g6a.jpg" alt="Sorvete de Chocolate">
-        <img width="400" height="400" src="assets\images\ice-cream--.jpg" alt="Sorvete com cobertura de chocolate derretido">
-        <img width="400" height="400" src="assets\images\ice-cream_.jpg" alt="Sorvete de Creme e Morango">
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\strawberry-ice-cream.jpg"
+              alt="Sorvete de Morango"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
 
-        <br>
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\ice-cream.jpg"
+              alt="Sorvete de Bolas no Prato"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
+        </tr>
 
-        <img width="400" height="400" src="assets\images\gelato.jpg" alt="Gelato">
-        <img width="400" height="400" src="assets\images\bowl.jpg" alt="Tijela de Sorvete">
-        <img width="400" height="400" src="assets\images\bananas.jpg" alt="Banana Split">
+        <tr>
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\ice-cream-g6a.jpg"
+              alt="Sorvete de Chocolate"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
 
-        <br><br>
-        <a href="purchase_form.html">
-            <button>Comprar</button>
-        </a>
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\ice-cream--.jpg"
+              alt="Sorvete com cobertura de chocolate derretido"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
+
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\ice-cream_.jpg"
+              alt="Sorvete de Creme e Morango"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\gelato.jpg"
+              alt="Gelato"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
+
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\bowl.jpg"
+              alt="Tijela de Sorvete"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
+
+          <td class="table-items">
+            <img
+              width="400"
+              height="400"
+              src="assets\images\bananas.jpg"
+              alt="Banana Split"
+            />
+            <a href="pages/purchase_form.html">
+              <button>Comprar</button>
+            </a>
+          </td>
+        </tr>
+      </table>
     </main>
 
     <!--Rodapé da Página-->
-    <hr>
+    <hr />
 
     <footer>
-        <p>Siga nós em...</p>
-        <img width="70" src="assets\icons\Instagram-Logo.png" alt="Instagram">
-        <img width="70" src="assets\icons\twitter-logo.png" alt="Twitter">
+      <p>Siga nós em...</p>
+      <img width="70" src="assets\icons\Instagram-Logo.png" alt="Instagram" />
+      <img width="70" src="assets\icons\twitter-logo.png" alt="Twitter" />
     </footer>
-</body>
+  </body>
 </html>
