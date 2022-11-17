@@ -1,242 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
 
-    <title>Ice Cream Shop</title>
-  </head>
-  <body>
-    <!--Cabeçalho da Página-->
-    <header>
-      <section class="container section-header">
-        <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Ice Cream Shop</title>
+</head>
+
+<body>
+  <!--Cabeçalho da Página-->
+  <header>
+    <section class="container section-header">
+      <!--
             <nav>
                
                 <img class="image-logo" src="assets\images\logo.png" alt="Logo-Sorveteria">
                 
             </nav>
             -->
-        <nav>
-          <ul class="list">
-            <a class="link" href="index.html">
-              <li class="nav-button">Home</li>
-            </a>
-            <a class="link" href="pages/about_us.html">
-              <li class="nav-button">Sobre Nós</li>
-            </a>
-            <a class="link" href="">
-              <li class="nav-button">Pesquisar</li>
-            </a>
-          </ul>
-        </nav>
-      </section>
-    </header>
+      <nav>
+        <ul class="list">
+          <a class="link" href="index.html">
+            <li class="nav-button">Home</li>
+          </a>
+          <a class="link" href="pages/about_us.html">
+            <li class="nav-button">Sobre Nós</li>
+          </a>
+          <a class="link" href="">
+            <li class="nav-button">Pesquisar</li>
+          </a>
+        </ul>
+      </nav>
+    </section>
+  </header>
 
-    <hr />
-    <!--Parte principal do site-->
-    <main class="container">
-      <table class="table-main">
-        <caption>
-          <h1>
-            Produtos
-          </h1>
-        </caption>
-        <tr>
-          <td class="table-items">
-            <img
-              class="images-product"
-              src="assets\images\waffle.jpg"
-              alt="Sorvete Waffle"
-            />
-            <h3 class="title-items">Sorvete Waffle</h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
+  <hr />
+  <!--Parte principal do site-->
+  <main>
+   <h1 id="titlePage">
+      Produtos
+    </h1>
 
-          <td class="table-items">
-            <img
-            class="images-product"
-            src="assets\images\to-bake.jpg"
-              alt="Sorvete Waffle no Copo"
-            />
-            <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
+    <section class="section-content">
+      <div class="div-container">
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\waffle.jpg" alt="Sorvete Waffle" />
+          <h3 class="title-productItems">Sorvete Waffle</h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
 
-          <td class="table-items">
-            <img
-                          class="images-product"
-  
-            src="assets\images\to-bake-.jpg"
-              alt="Sorvete de Frutas"
-            />
-              <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
-        </tr>
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\to-bake.jpg" alt="Sorvete Waffle no Copo" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
 
-        <tr>
-          <td class="table-items">
-            <img
-                          class="images-product"
-  
-            src="assets\images\to-bake_.jpg"
-              alt="Bolo de Sorvete"
-            />
-              <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\to-bake-.jpg" alt="Sorvete de Frutas" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
+      </div>
+      
+      <div class="div-container">
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\to-bake_.jpg" alt="Bolo de Sorvete" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
 
-          <td class="table-items">
-            <img
-                          class="images-product"
-  
-            src="assets\images\strawberry-ice-cream.jpg"
-              alt="Sorvete de Morango"
-            />
-              <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\strawberry-ice-cream.jpg" alt="Sorvete de Morango" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
 
-          <td class="table-items">
-            <img
-                          class="images-product"
-  
-            src="assets\images\ice-cream.jpg"
-              alt="Sorvete de Bolas no Prato"
-            />
-              <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
-        </tr>
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\ice-cream.jpg" alt="Sorvete de Bolas no Prato" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
+      </div>
 
-        <tr>
-          <td class="table-items">
-            <img
-                          class="images-product"
-  
-            src="assets\images\ice-cream-g6a.jpg"
-              alt="Sorvete de Chocolate"
-            />
-              <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
+      <div class="div-container">
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\ice-cream-g6a.jpg" alt="Sorvete de Chocolate" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
 
-          <td class="table-items">
-            <img
-                          class="images-product"
-  
-            src="assets\images\ice-cream--.jpg"
-              alt="Sorvete com cobertura de chocolate derretido"
-            />
-              <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\ice-cream--.jpg"
+            alt="Sorvete com cobertura de chocolate derretido" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
 
-          <td class="table-items">
-            <img
-                          class="images-product"
-  
-            src="assets\images\ice-cream_.jpg"
-              alt="Sorvete de Creme e Morango"
-            />
-              <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
-        </tr>
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\ice-cream_.jpg" alt="Sorvete de Creme e Morango" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
+      </div>
 
-        <tr>
-          <td class="table-items">
-            <img
-                          class="images-product"
-  
-            src="assets\images\gelato.jpg"
-              alt="Gelato"
-            />
-              <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
+      <div class="div-container">
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\gelato.jpg" alt="Gelato" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
 
-          <td class="table-items">
-            <img
-                          class="images-product"
-  
-            src="assets\images\bowl.jpg"
-              alt="Tijela de Sorvete"
-            />
-              <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\bowl.jpg" alt="Tijela de Sorvete" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
 
-          <td class="table-items">
-            <img
-                          class="images-product"
-  
-            src="assets\images\bananas.jpg"
-              alt="Banana Split"
-            />
-              <h3 class="title-items">
-              Teste
-            </h3>
-            <a href="pages/purchase_form.html">
-              <button class="button-purchase">Comprar</button>
-            </a>
-          </td>
-        </tr>
-      </table>
-    </main>
+        <div class="div-productItems">
+          <img class="images-product" src="assets\images\bananas.jpg" alt="Banana Split" />
+          <h3 class="title-productItems">
+            Teste
+          </h3>
+          <a href="pages/purchase_form.html">
+            <button class="button-purchase">Comprar</button>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <!--Rodapé da Página-->
-    <hr />
 
-    <footer class="footer">
-      <p><h4>Redes Sociais</h4></p>
-      <img class="images-social" src="assets\icons\Instagram-Logo.png" alt="Instagram" />
-      <img class="images-social" src="assets\icons\twitter-logo.png" alt="Twitter" />
-    </footer>
-  </body>
+  <!--Rodapé da Página-->
+  <hr />
+
+  <footer class="footer">
+    <p>
+    <h4>Redes Sociais</h4>
+    </p>
+    <img class="images-social" src="assets\icons\Instagram-Logo.png" alt="Instagram" />
+    <img class="images-social" src="assets\icons\twitter-logo.png" alt="Twitter" />
+  </footer>
+</body>
+
 </html>

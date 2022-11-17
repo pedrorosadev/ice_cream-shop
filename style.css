@@ -1,30 +1,30 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-.container > div{
+.container>div {
     width: 300px;
 }
 
-@media(max-width: 500px){
-    .container{
+@media(max-width: 500px) {
+    .container {
         flex-direction: column;
     }
 }
 
-.section-header{
+.section-header  {
     background-color: #FD8344;
     padding: 20px;
     margin-bottom: 50px;
     justify-content: space-around;
 }
 
-.nav-button{
+.nav-button {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin-left: 15px;
@@ -32,85 +32,89 @@
     font-size: large;
 }
 
-.nav-button:hover{
+.nav-:hover {
     color: rgb(230, 230, 230);
 }
 
-.link{
+.link {
     text-decoration: none;
 }
 
-.list{
+.list {
     list-style: none;
 }
 
-li{
+li {
     display: inline;
 }
 
-.image-logo{
+.image-logo {
     width: 10%;
     height: 10%;
 }
 
-.table-main{
-    margin: 10px;
-    align-items: center;
-    text-align: center;
-}
-
-.table-items{
+.div-productItems {
     padding: 10px;
+
 }
 
-.title-items{
+.title-productItems {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
 }
 
-.images-product{
+.images-product {
     height: 300px;
     width: 350px;
+    border-radius: 10px;
 }
 
-.button-purchase{
+.images-product:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px grey;
+}
+
+.button-purchase {
     background-color: #0247FE;
     color: white;
     border-radius: 10px;
     border: none;
     padding: 15px 32px;
-    display: inline-block;
     font-size: 16px;
     cursor: cell;
     transition-duration: 0.6s;
+    margin-left: 50%;
 }
 
-.button-purchase:hover{
+.button-purchase:hover {
     background-color: #628cff;
 }
 
-.title-table{
-    text-align: start;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer{
+.footer {
     background-color: #FD8344;
     color: white;
     padding: 10px;
 }
 
-.images-social{
+.images-social {
     width: 50px;
     height: 50px;
 }
 
-hr{
+#titlePage {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.div-container {
+    display: inline-flex;
+}
+
+.section-content {
+  
+}
+
+hr {
     display: none;
 }
-
-main{
-    align-items: center;
-}
-
