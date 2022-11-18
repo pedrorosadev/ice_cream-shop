@@ -23,15 +23,10 @@
             -->
       <nav>
         <ul class="list">
-          <a class="link" href="index.html">
-            <li class="nav-button">Home</li>
-          </a>
-          <a class="link" href="pages/about_us.html">
-            <li class="nav-button">Sobre Nós</li>
-          </a>
-          <a class="link" href="">
-            <li class="nav-button">Pesquisar</li>
-          </a>
+            <li onclick="window.location.href='index.html'" class="nav-button">Home</li>
+            <li onclick="window.location.href='pages/about_us.html'" class="nav-button">Sobre Nós</li>
+            <li id="promotion" onmouseout="handleChangeTextOut()" onmouseover="handleChangeText()" class="nav-button">Promoção</li>
+            <li onclick="" id="search" class="nav-button">Pesquisar</li>
         </ul>
       </nav>
     </section>
@@ -185,6 +180,8 @@
     <img class="images-social" src="assets\icons\Instagram-Logo.png" alt="Instagram" />
     <img class="images-social" src="assets\icons\twitter-logo.png" alt="Twitter" />
   </footer>
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
